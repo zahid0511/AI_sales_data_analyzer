@@ -8,6 +8,15 @@ Instead of writing SQL or Python queries manually, users can simply ask question
 
 The application uses **PandasAI** to interpret the question and **Gemini through LiteLLM** to perform the analysis, with **Streamlit** providing the interactive web interface.
 
+## 🖥️ Application Preview
+
+Here is a preview of the **AI Sales Data Analyzer** in action:
+Screenshot (291).png
+
+
+The interface allows users to explore sales data, select predefined business questions, or ask their own questions using natural language.
+
+
 ## ✨ Features
 
 * 🤖 Natural-language sales analysis
