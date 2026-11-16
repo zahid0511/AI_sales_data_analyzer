@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import pandasai as pai
@@ -81,10 +80,7 @@ if api_key:
             model="gemini/gemini-3.5-flash",
             api_key=api_key
         )
-
-        pai.config.set({
-            "llm": llm
-        })
+        pai.config.set({"llm": llm})
 
     except Exception as e:
         st.error(f"LLM configuration failed: {e}")
